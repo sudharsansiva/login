@@ -144,15 +144,3 @@ function setType(element, oldType, newType) {
     }
 
 }
-
-function setIcon(element, oldPath, newPath) {
-    if (element.scr.match(oldPath)) {
-        element.scr = newPath;
-    }
-    else {
-        element.src = oldPath;
-    }
-}
-
-
-eyeIcon.addEventListener("c")
